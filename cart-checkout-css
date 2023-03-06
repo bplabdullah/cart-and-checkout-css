@@ -1,24 +1,66 @@
 /*Cart CSS*/
 
-.page-id-129 div#content { padding-top: 100px !important; padding-bottom: 40px !important; }
-.page-id-129 h1 { font-size: 40px; border: none; } 
-.page-id-129 .cart th { background: #940d00; color: #ffffff; text-align: left; font-weight: 600 !important; font-size: 16px; } 
-.page-id-129 section#primary { flex: 0 0 100%; max-width: 100%; } 
-.page-id-129 .cart tr { height: 55px !important; } 
-.cart_item td span, .cart_item td a { color: #fff; } 
-.page-id-129 input#coupon_code { padding: 9px 10px; } 
-.page-id-129 button.button { background-color: #940d00 !important; color: #fff !important; border: solid 1px #940d00 !important; }
-.page-id-129 button.button:hover { background-color: #fff !important; color: #940d00 !important; } 
-.page-id-129 .wc-forward:hover { background-color: #fff !important; color: #940d00 !important; border: solid 1px #940d00 !important; } 
-.page-id-129 .wc-forward { background-color: #940d00 !important; border: solid 1px #940d00 !important; }
-.page-id-129 .woocommerce a.remove { background-color: #940d00 !important; color: #fff !important; border: solid 1px #940d00; padding: 0; }
-.page-id-129 .woocommerce a.remove:hover { color: #a98865!important; background: #ffffff !important; }
-.woocommerce table.shop_table, .woocommerce table.shop_table td {
-    border: 1px solid #940d00bf;
+.page-id-12 .cart th {
+    background: #c4ad89;
+    color: #fff;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
 }
-.cart_totals, .cart_totals h2 {
+
+.page-id-12 .cart tr {
+    height: 55px;
+}
+.cart_item td span,
+.cart_item td a {
+    color: #000;
+}
+.page-id-12 input#coupon_code {
+    font-family: "Roboto";
+    width: 55%;
+}
+.page-id-12 button.button {
+    background-color: #c4ad89;
+    color: #fff;
+    border: solid 1px #c4ad89;
+}
+.page-id-12 button.button:hover {
+    background-color: #c4ad89;
     color: #fff;
 }
+.page-id-12 .wc-forward:hover {
+    background-color: #000;
+    color: #c4ad89;
+    border: solid 1px #c4ad89;
+}
+.page-id-12 .wc-forward {
+    background-color: #c4ad89 !important;
+    border: solid 1px #c4ad89 !important;
+}
+.page-id-12 .woocommerce a.remove {
+    background-color: #c4ad89;
+    color: #fff !important;
+    border: solid 1px #c4ad89;
+    padding: 0;
+}
+.page-id-12 .woocommerce a.remove:hover {
+    color: #a98865 !important;
+    background: #000000 !important;
+}
+.woocommerce table.shop_table,
+.woocommerce table.shop_table td {
+    border: 1px solid #c4ad89bf;
+    font-family: "Roboto";
+}
+.cart_totals,
+.cart_totals h2 {
+    color: #000;
+}
+
+.woocommerce table.cart td.product-quantity .qty {
+    font-family: "Roboto";
+}
+
 
 
 
