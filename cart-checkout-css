@@ -66,34 +66,79 @@
 
 /*Checkout CSS*/
 
-.page-id-130 .col-lg-8 { flex: 0 0 100% !important; max-width: 100% !important; }
-.page-id-130 .site-content { padding-top: 85px !important; padding-bottom: 85px !important; } 
-.page-id-130 h1.entry-title { margin: 0; padding: 0; border: none; font-size: 34px; } 
-.page-id-130 .woocommerce-info a.showcoupon { color: #020610 !important; } 
-.page-id-130 .woocommerce-info { border-top-color: #020610 !important; } 
-.page-id-130 .woocommerce-info::before { color: #020610 !important; } 
-.page-id-130 #customer_details .col-12 { padding: 0; } 
-.page-id-130 .form-group .form-control { padding: 22px 18px; } 
-.page-id-130 span.woocommerce-input-wrapper { width: 100% !important; }
-.page-id-130 .form-group .form-control:focus { box-shadow: none !important; border: solid 1px #020610; } 
-.page-id-130 .form-group label.control-label { line-height: 2 !important; } 
-.page-id-130 .select2-container .select2-selection--single { height: 45px; display: flex; align-items: center; padding-left: 10px; border: solid 1px #ced4da; }
-.page-id-130 .select2-container--default .select2-selection--single .select2-selection__arrow{ top: 8px; }
-.page-id-130 form .form-row textarea { width: 100% !important; resize: none; height: 50px !important; padding-top: 14px; } 
-.page-id-130 .woocommerce-additional-fields label.control-label { line-height: 2 !important; } 
-.page-id-130 .woocommerce-privacy-policy-text a { color: #020610 !important; }
-.page-id-130 button#place_order { padding: 15px 50px !important; border-radius: 30px !important; background-color: #020610 !important; color: #fff !important; border: solid 2px #020610 !important;  margin-top: 20px; }
-.page-id-130 button#place_order:hover { background-color: #fff !important; color: #020610 !important; border: solid 2px !important; }
-.page-id-130 h3 { margin-top: 30px !important; }
-.woocommerce-billing-fields, .woocommerce-billing-fields h3 {
-    color: #fff;
+.page-id-13 .woocommerce-info a.showcoupon {
+    color: #020610;
 }
-.woocommerce-additional-fields, .woocommerce-additional-fields h3 {
-    color: #fff;
+.page-id-13 .woocommerce-info {
+    border-top-color: #020610;
+    font-family: "Roboto";
 }
+.page-id-13 .woocommerce-info::before {
+    color: #020610;
+}
+.page-id-13 #customer_details .col-12 {
+    padding: 0;
+}
+.page-id-13 .form-group .form-control {
+    padding: 22px 18px;
+}
+.page-id-13 span.woocommerce-input-wrapper {
+    width: 100%;
+}
+.page-id-13 .select2-container .select2-selection--single {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border: solid 1px #ced4da;
+}
+.page-id-13 .woocommerce-privacy-policy-text a {
+    color: #020610;
+}
+.page-id-13 button#place_order {
+    padding: 15px 50px;
+    border-radius: 30px;
+    background-color: #c4ad89;
+    color: #fff;
+    border: solid 2px #c4ad89;
+    margin-top: 20px;
+}
+.page-id-13 button#place_order:hover {
+    background-color: #c4ad89;
+    color: #fff;
+    border: solid 2px #c4ad89;
+}
+.page-id-13 h3 {
+    margin-top: 30px;
+}
+.woocommerce-billing-fields,
+.woocommerce-billing-fields h3,
+.woocommerce-additional-fields,
+.woocommerce-additional-fields h3 {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
 h3#order_review_heading {
-    color: #fff;
+    color: #000;
 }
 div#order_review table.shop_table.woocommerce-checkout-review-order-table {
-    color: #fff;
+    color: #000;
+}
+
+.woocommerce form .form-row input.input-text {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border: solid 1px #ced4da;
+    font-family: "Roboto";
+    background: #fff;
+    box-shadow: none;
+}
+
+textarea#order_comments {
+    font-family: "Roboto";
+    height: 100px;
 }
